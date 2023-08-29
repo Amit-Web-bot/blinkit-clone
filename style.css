@@ -1,0 +1,58 @@
+.location{
+    color: rgb(0, 0, 0);
+}
+.location>h5{
+    font-weight: 800;
+    margin-bottom: 6px;
+    font-size: 18px;
+}
+.location>p{
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0px;
+
+}
+.img-logo{
+    border-right: solid rgb(216,217,218);
+    height: 55px;
+}
+.search-div{
+    padding: 0px 12px;
+    height: 46px;
+    border: 1px solid rgb(232, 232, 232);
+    border-radius: 12px;
+    background: rgb(248, 248, 248);
+    color: rgb(130, 130, 130);
+}
+.search-div>input{
+    border: none;
+    background-color: transparent;
+    width: 40vw;
+    height: 45px;
+}
+::placeholder{
+    font-size: 14px;
+    line-height: 18px;
+    color: rgb(153, 153, 153);
+}
+.my-cart{
+    background-color: rgb(13,131,30) !important;
+
+}
+.coupne{
+    margin: auto;
+    width: 85%;
+    overflow-x: auto;
+    overflow-y: auto    ;
+}
+.coupne_list{
+    white-space: normal;
+}
+.coupne_list>div{
+    margin: auto;
+    column-gap: 20px;
+    padding: 5px;
+}
+::-webkit-scrollbar{
+    display: none;
+}
