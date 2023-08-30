@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 .location{
     color: rgb(0, 0, 0);
 }
@@ -177,4 +178,15 @@ td{
     color: #666666;
     font-size: 14px;
     padding-bottom: 10px;
+}
+.row-4{
+    text-align: center;
+}
+@media screen and (max-width:768px){
+    nav,.row-1,.row-2,.row-3{
+        flex-direction: column !important;
+    }
+    .img-logo,.her-sec{
+        display: none !important;
+    }
 }
